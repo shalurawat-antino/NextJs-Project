@@ -1,6 +1,7 @@
+import { fetchCustomers } from '@/app/lib/data';
 import React from 'react';
 
-const Customers = () => {
+const Customers = async () => {
   return <p>Customers Page</p>;
 };
 
